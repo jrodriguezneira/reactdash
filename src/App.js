@@ -35,6 +35,36 @@ const App = () => {
             </div>
           </div>
 
+          <div>
+            <Routes>
+              {/* Dashboard */ }
+              <Route path="/" element="ECommerce" />
+              <Route path="/ECommerce" element="ECommerce" />
+
+             
+              {/* pages */}
+              <Route path="/orders" element="Orders" />
+              <Route path="/employees" element="Employees" />
+              <Route path="/customers" element="Customers" />
+
+               {/* Apps */}
+              <Route path="/kanban" element="Kanban" />
+              <Route path="/editor" element="Editor" />
+              <Route path="/celendar" element="Calendar" />
+              <Route path="/color-picker" element="ColorPicker" />
+
+              {/* Apps */}
+              <Route path="/line" element="Line" />
+              <Route path="/area" element="Area" />
+              <Route path="/bar" element="Bar" />
+              <Route path="/pie" element="Pie" />
+              <Route path="/financial" element="Financial" />
+              <Route path="/color-mapping" element="Mapping" />
+              <Route path="/pyramid" element="Pyramid" />
+              <Route path="/stacked" element="Stacked" />
+            </Routes>
+          </div>
+
 
 
         </div>    
